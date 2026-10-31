@@ -3,4 +3,5 @@ dist
 *.log
 auto-imports.d.ts
 components.d.ts
-
+content/works-in-progress
+.claude
