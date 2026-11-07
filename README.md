@@ -21,6 +21,22 @@ tags: [horror, winter]
 
 The first `# H1` is used as the page title. `##` and `###` headings form the section sidebar. Don't write your own table of contents; the sidebar replaces it.
 
+Monsters and NPCs with stats go in a ` ```creature <system> ` fenced block, which renders as a Nimble-style stat card (`src/content/parseCreature.ts`). The full format is in the `creature-statblock` skill (`.claude/skills/creature-statblock/SKILL.md`):
+
+````
+```creature cypher
+Frost Wisp
+Level 2
+Health: 6 | Armor: 0 | Movement: Short
+
+> **Dispersal.** Passive traits and conditions become ribbon banners.
+
+- **Damage.** Actions are bullets.
+```
+````
+
+An empty ` ```creature-index ` block is replaced by every creature card in the same file, in page order, for an end-of-module reference.
+
 ## Adding a new category
 
 1. Create `content/<id>/`.

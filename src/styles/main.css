@@ -91,6 +91,103 @@ body {
 }
 .doc-prose th { background: var(--ui-bg-elevated); color: var(--ui-text-highlighted); }
 
+/* Creature stat cards (```creature fences, see src/content/parseCreature.ts). Parchment look borrowed from Nimble. */
+.creature {
+  --m-bg: #f6f0e2;
+  --m-ink: #2d2822;
+  --m-muted: #6b6253;
+  --m-frame: #b8ab93;
+  --m-band: #ddd4c1;
+  --m-icon: #a89f8f;
+  --m-accent: #a8261b;
+  margin: 1.5rem 0.5rem;
+  padding: 1rem 1.25rem 1.1rem;
+  border: 1px solid var(--m-frame);
+  outline: 1px solid var(--m-frame);
+  outline-offset: 3px;
+  border-radius: 2px;
+  background: var(--m-bg);
+  color: var(--m-ink);
+  font-size: 1rem;
+  line-height: 1.45;
+  break-inside: avoid;
+}
+.dark .creature {
+  --m-bg: #26231e;
+  --m-ink: #ece5d6;
+  --m-muted: #b2a891;
+  --m-frame: #5d5444;
+  --m-band: #3b352c;
+  --m-icon: #857a66;
+  --m-accent: #f08472;
+}
+.doc-prose .creature strong { color: inherit; }
+.doc-prose .creature p { margin: 0; }
+
+.creature-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+}
+.creature-name {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+  font-variant: small-caps;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+}
+.creature-subtitle { color: var(--m-muted); font-size: 0.9rem; font-variant: small-caps; letter-spacing: 0.03em; }
+
+/* HP is always the last pill, so it always sits in the top-right corner. */
+.creature-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem 0.9rem;
+  margin-left: auto;
+  padding-top: 0.2rem;
+  font-weight: 700;
+  font-style: italic;
+  white-space: nowrap;
+}
+.creature-stat { display: inline-flex; align-items: center; gap: 0.3rem; }
+.creature-stat-icon { width: 1.35rem; height: 1.35rem; fill: var(--m-icon); flex: none; }
+.creature-stat-label { color: var(--m-muted); font-size: 0.8rem; font-variant: small-caps; font-style: normal; }
+
+.creature-body { margin-top: 0.6rem; }
+.creature-body > * + * { margin-top: 0.5rem; }
+.doc-prose .creature ul { margin: 0.5rem 0 0; padding-left: 1.2rem; }
+.doc-prose .creature li { margin: 0.2rem 0; }
+.doc-prose .creature li::marker { color: var(--m-ink); }
+
+/* Passive traits and conditions: a grey band with arrow-point ends that pokes past the frame. */
+.creature-ribbon {
+  margin: 0.75rem -1.75rem;
+  padding: 0.45rem 2.4rem;
+  background: var(--m-band);
+  clip-path: polygon(0 50%, 1.4rem 0, calc(100% - 1.4rem) 0, 100% 50%, calc(100% - 1.4rem) 100%, 1.4rem 100%);
+  font-style: italic;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.creature-ribbon + .creature-ribbon { margin-top: 0.4rem; }
+.creature-ribbon p + p { margin-top: 0.15rem; }
+
+.doc-prose hr.creature-rule { margin: 0.8rem 0; border-top-color: var(--m-frame); }
+.doc-prose .creature-phase strong:not(:first-child) { color: var(--m-accent); }
+
+/* ```creature-index: each re-rendered card is followed by the section it came from. */
+.doc-prose .creature-index-source {
+  margin: -1rem 0.5rem 1.75rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ui-text-muted);
+}
+
 @media print {
   header, footer, aside, .fixed { display: none !important; }
 }

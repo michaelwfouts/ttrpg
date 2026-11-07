@@ -76,14 +76,21 @@ He is alarmed and, being proud, hides it as irritation. He never asks the party 
 - His satchel holds more masks than it should.
 - The old keepers' words come easily to him, sometimes in voices that aren't quite his own.
 
-**Stats:**
+```creature cypher
+The Mask-Maker
+Level 6 for Intellect defense, hiding intent, and the ritual; Level 4 for physical tasks
+Health: 20 | Armor: 1
 
-- **Health:** 20
-- **Armor:** 1
-- **Damage:** 4 points (he rarely resorts to this)
-- **Combat:** He does not lift a hand against the party unless they threaten the ritual, and even then he tries to talk first.
-- **Interaction:** Dry, weary, and always a step ahead. Speaks in half-answers and complaints that are almost directions. He is the one NPC present in every act of the adventure. He treats the party like an unexpected complication in a night that was supposed to be routine.
-- **GM Intrusion (A Helping Hand):** At a critical moment, the Mask-Maker helps: a hand on a collar, a word at the right time, a stone kicked loose just so. The help is real, and he makes sure the PC who received it knows it.
+> **The Keeper's Office.** Walks the Hollow Season, the church, the mine, and the tree line freely; nothing there can harm him.
+
+- **Damage.** 4 points (he rarely resorts to this).
+```
+
+**Combat.** He does not lift a hand against the party unless they threaten the ritual, and even then he tries to talk first.
+
+**Interaction.** Dry, weary, and always a step ahead. Speaks in half-answers and complaints that are almost directions. He is the one NPC present in every act of the adventure. He treats the party like an unexpected complication in a night that was supposed to be routine.
+
+**GM Intrusion (A Helping Hand):** At a critical moment, the Mask-Maker helps: a hand on a collar, a word at the right time, a stone kicked loose just so. The help is real, and he makes sure the PC who received it knows it.
 
 #### What He's Doing: The Turning of the Faces
 
@@ -120,14 +127,22 @@ He stopped going to Fasnacht. He couldn't stand in that hall and sing winter off
 
 He was never in the hall, so he was never frozen. He walked into the Hollow Season on his own feet, and he waits for the party at the church altar, leading the hymn. He does not think of himself as fighting the town. He thinks of himself as the only one who has finally, finally decided to save it.
 
-**Stats:**
+```creature cypher
+Reverend Asa Cutlip
+Level 5
+Health: 20 | Armor: 0
 
-- **Health:** 20
-- **Armor:** 0 (he doesn't believe he needs protecting)
-- **Damage:** 3 points (he is not a fighter, and if forced into violence, does it clumsily, almost reluctantly)
-- **Modifications:** Interaction tasks to intimidate or threaten him are hindered by one step; fear does not move him. Interaction tasks that genuinely engage with what he lost, or with the town's real hardship, are eased by one step.
-- **Borrowed Cold:** Once per scene, Cutlip calls on the fraction of Old Man Winter bound into the church, and frost lashes out from the altar at everyone within Immediate range. Each must make a Might defense task (Difficulty 4) or take 4 points of damage and have all tasks hindered by one step for one round. Using this visibly costs him: he ages before the party's eyes each time, and a perceptive PC notices his hands trembling afterward.
-- **Interaction:** Cutlip will talk, if given the chance. He wants to be understood, and maybe even wants to be talked out of it, though he'd never admit that. He defends the ritual passionately at first, but a PC who takes his reasons seriously, rather than arguing theology or calling him mad, may find a crack in his certainty (Intellect-based Interaction task, Difficulty 5, eased as above if played sincerely). Success doesn't instantly end the threat, but it visibly shakes him and can make the confrontation at the altar far less violent.
+> **Unafraid.** Interaction tasks to intimidate or threaten him are hindered by one step.
+> **Grieving Father.** Interaction tasks that genuinely engage with what he lost, or with the town's real hardship, are eased by one step.
+
+- **Damage.** 3 points (clumsy, almost reluctant violence).
+- **Borrowed Cold (Once per scene).** Frost lashes from the altar at everyone within Immediate range. Might defense (Difficulty 4) or take 4 points and all tasks hindered by one step for one round. He visibly ages each time he uses it.
+- **Talked Down.** Intellect-based Interaction task (Difficulty 5, eased as above) shakes his certainty and can make the confrontation far less violent.
+```
+
+**Combat.** He is not a fighter, and if forced into violence, does it clumsily, almost reluctantly. He doesn't believe he needs protecting. Using Borrowed Cold visibly costs him: he ages before the party's eyes each time, and a perceptive PC notices his hands trembling afterward.
+
+**Interaction.** Cutlip will talk, if given the chance. He wants to be understood, and maybe even wants to be talked out of it, though he'd never admit that. He defends the ritual passionately at first, but a PC who takes his reasons seriously, rather than arguing theology or calling him mad, may find a crack in his certainty (Intellect-based Interaction task, Difficulty 5, eased as above if played sincerely). Success doesn't instantly end the threat, but it visibly shakes him and can make the confrontation at the altar far less violent.
 
 **Arguing with him.** Cutlip has an answer for the easy arguments. The ones that crack him are about what a town actually is.
 
@@ -148,13 +163,19 @@ Arguments like these find the crack (and ease the Interaction task):
 
 Odell has called the Fasnacht square dance for forty years: same steps, same jokes, same threat to make you do-si-do again if you get it wrong. He is one of the frozen, mid-call, mouth open around a word that never finished. Unlike most of the town's lost souls, his spirit is clear-headed: **Odell walks the Hollow Season** aware and mobile, but unable to return to his body without the party's help.
 
-**Stats:**
+```creature cypher
+Odell Kesling
+Level 2 (Level 4 for local history and tradition)
+Health: 12 | Armor: 0
 
-- **Health:** 12
-- **Armor:** 0
-- **Damage:** None (Odell will not fight)
-- **Interaction:** Gruff, practical, scared underneath it and covering with orneriness. He knows Fasnacht tradition better than anyone alive and can point the party toward any of the three paths. He trusts the church least: *"Used to be there was a mask for the preacher too. Ain't seen it hung out in six years."*
-- **Use:** Odell can serve as the party's guide through the Hollow Season (Section 4), offering lore, direction, and a human stake. If the party fails, Odell's spirit fades along with everyone else's.
+> **Lost Soul.** A clear-headed spirit; can't return to his body without the party's help.
+
+- **Damage.** None. Odell will not fight.
+```
+
+**Interaction.** Gruff, practical, scared underneath it and covering with orneriness. He knows Fasnacht tradition better than anyone alive and can point the party toward any of the three paths. He trusts the church least: *"Used to be there was a mask for the preacher too. Ain't seen it hung out in six years."*
+
+**Use.** Odell can serve as the party's guide through the Hollow Season (Section 4), offering lore, direction, and a human stake. If the party fails, Odell's spirit fades along with everyone else's.
 
 ---
 
@@ -401,15 +422,21 @@ He will explain the Turning of the Faces in general terms if asked (Section 2), 
 
 If you want a mechanical beat before the party commits, or if they linger too long deciding, **Frost Wisps** drift out of the suspended snow: small fragments of Old Man Winter's attention, come to see who's moving through his season uninvited.
 
-**Frost Wisp**
-*Level 2*
+```creature cypher
+Frost Wisp
+Level 2
+Health: 6 | Armor: 0 | Movement: Short
 
-- **Health:** 6
-- **Armor:** 0
-- **Damage:** 2 points. The target must also succeed on a Might defense task or have all physical tasks hindered by one step until they warm themselves at an open flame or leave the Hollow Season.
-- **Movement:** Short (drifts, doesn't walk)
-- **Combat:** Wisps have no real malice. They're closer to curious cold fronts than hunters. Any solid hit disperses one, and they re-form elsewhere later. Use two or three at once for a quick taste of danger, not a serious fight.
-- **Interaction:** None. They understand only cold and warmth.
+> **Dispersal.** Any solid hit disperses one. It re-forms elsewhere later.
+
+- **Damage.** 2 points. Might defense or all physical tasks are hindered by one step.
+
+> **Chilled.** Physical tasks hindered by one step until you warm yourself at an open flame or leave the Hollow Season.
+```
+
+**Combat.** Wisps have no real malice. They drift rather than walk, and are closer to curious cold fronts than hunters. Use two or three at once for a quick taste of danger, not a serious fight.
+
+**Interaction.** None. They understand only cold and warmth.
 
 This encounter is a reminder that the Hollow Season is dangerous and time-limited. Don't let it run long.
 
@@ -441,15 +468,21 @@ The warmth is real, and it should feel wrong precisely because it's the first co
 
 These are the people of Helvetia in 1918, the congregation that first sang the Litany of the Long Winter over their own unburied dead. They are a memory, like the other sprites, but the hymn has given them weight: here, and only here, they can touch and be touched. They are neighbors, not monsters. Some are people frozen in the hall tonight, twelve years younger. Others are the dead they were mourning. The adventure plays better if the party realizes that quickly.
 
-**The Congregation**
-*Level 3 (as a group)*
+```creature cypher
+The Congregation
+Level 3 (as a group)
+Health: 18 | Armor: 0 | Movement: Short
 
-- **Health:** 18 (shared pool; treat as a single mob, or split into two or three clusters of Health 6 each for a more granular fight)
-- **Armor:** 0
-- **Damage:** 2 points (a firm, unthinking shove or grip meant to keep intruders from the altar, not to injure)
-- **Movement:** Short
-- **Combat:** The congregation acts only to block the aisle or restrain someone reaching for the altar or the Reverend. They use no weapons, do not pursue outside the church, and stop entirely (going glassy and still, sitting back down) the moment Reverend Cutlip is incapacitated, convinced, or removed from the room.
-- **Interaction:** Unresponsive while the hymn plays. A PC who stops one and removes their mask frees that soul: the figure sighs, looks toward the shapes under the sheets, and fades, finally let go. This can be done instead of fighting through the whole congregation, at the cost of time.
+> **One Mob.** Shared Health pool. Or split into two or three clusters of Health 6 each for a more granular fight.
+> **Bound to Cutlip.** They stop entirely, going glassy and sitting back down, the moment Reverend Cutlip is incapacitated, convinced, or removed from the room.
+
+- **Damage.** 2 points (a firm, unthinking shove or grip meant to keep intruders from the altar, not to injure).
+- **Unmasked.** A PC who stops one and removes its mask frees that soul; it fades. Slower than fighting, but no one is hurt.
+```
+
+**Combat.** The congregation acts only to block the aisle or restrain someone reaching for the altar or the Reverend. They use no weapons and do not pursue outside the church.
+
+**Interaction.** Unresponsive while the hymn plays. A PC who stops one and removes their mask frees that soul: the figure sighs, looks toward the shapes under the sheets, and fades, finally let go. This can be done instead of fighting through the whole congregation, at the cost of time.
 
 **GM Intrusion (A Familiar Face):** As a PC moves to bypass or subdue a member of the congregation, they recognize the face under the mask: the shopkeeper who sold them cider today, or someone kind to them at the Ball, twelve years younger and grieving. The action doesn't become impossible, but let it cost something (hesitation, a beat of guilt).
 
@@ -559,15 +592,21 @@ A PC who is watching the ceiling, or who already understood the canaries, can sp
 
 Any PC under the bell takes 5 points of damage (Speed defense task, Difficulty 4, halves this). Everyone else within Short range takes 3 points (Speed defense task, Difficulty 3, halves this). Then 2-4 **Kindled**, fed by the blast, re-form and attack, scaling with party size. Past the bell, the haulage road runs down into the lower seam.
 
-**The Kindled**
-*Level 3*
+```creature cypher
+The Kindled
+Level 3
+Health: 4 | Armor: 0 | Movement: Short
 
-- **Health:** 4 each
-- **Armor:** 0, but immune to ordinary physical damage; blows pass through them like a hand through a flame. Snow, ice, water, or a smothering action (Might task, Difficulty 2) extinguishes one outright.
-- **Damage:** 3 points of fire damage on a successful grab. A grabbed target must also succeed on an Intellect defense task (Difficulty 3) or be transfixed by the borrowed face, unable to act for a round.
-- **Movement:** Short (drifts rather than walks)
-- **Combat:** The Kindled don't attack to kill. They cling, seeking warmth. A PC grabbed this way loses 1 point from their Might Pool each round until they break free. They are not cruel. They are barely anything at all: fragments of shock and old fire from the day the roof came down, wearing whatever face will draw someone closer.
-- **Interaction:** They can't really speak, but the borrowed face sometimes shapes a word or two in a voice that isn't quite right (*"come home," "it's warmer this way," "don't leave me"*). It is not communication, just an echo doing what echoes do.
+> **Living Flame.** Immune to ordinary physical damage. Snow, ice, water, or a smothering action (Might task, Difficulty 2) extinguishes one outright.
+
+- **Damage.** 3 points of fire on a successful grab. Intellect defense (Difficulty 3) or Transfixed. Grabbed PCs lose 1 Might each round until they break free.
+
+> **Transfixed.** Held by the borrowed face, unable to act for a round.
+```
+
+**Combat.** The Kindled don't attack to kill. They drift rather than walk, and cling, seeking warmth. Blows pass through them like a hand through a flame. They are not cruel. They are barely anything at all: fragments of shock and old fire from the day the roof came down, wearing whatever face will draw someone closer.
+
+**Interaction.** They can't really speak, but the borrowed face sometimes shapes a word or two in a voice that isn't quite right (*"come home," "it's warmer this way," "don't leave me"*). It is not communication, just an echo doing what echoes do.
 
 **GM Intrusion (A Face That Matters):** For a moment, one of the Kindled wears the face of someone the party has met and cared about tonight: Sara Collins, Odell, a dancer they spoke to at the Ball, or a PC's own connection to the town. It changes nothing mechanically. It should change quite a lot at the table.
 
@@ -589,14 +628,19 @@ Tobias guides the party to the bottom of the seam, where the Banked Fire waits, 
 
 At the bottom of the lower seam, in a chamber the collapse somehow never touched, something old and slow and warm is waiting. It isn't fire, quite. It is closer to fire's memory, the way Old Man Winter is closer to winter's memory than to actual cold. Generations of labor, warmth, and lives spent in this dark have banked themselves here into something with just enough shape to be spoken to.
 
-**The Banked Fire**
-*Level 6*
+```creature cypher
+The Banked Fire
+Level 6
+Health: 24 | Armor: 2
 
-- **Health:** 24 (this reflects how hard it is to resist, not a combat threat; it will not fight the party under ordinary circumstances)
-- **Armor:** 2
-- **Damage:** None in ordinary interaction. If provoked or robbed, it can scorch a target for 5 points of damage without moving.
-- **Modifications:** Interaction tasks to bargain honestly with it are eased by one step. Tasks to deceive or manipulate it are hindered by two steps; it has had a very long time to learn what dishonesty sounds like.
-- **Interaction:** Speaks slowly and plainly, without malice and without particular warmth, despite what it is. It has been patient for longer than the mine has existed and sees no reason to hurry. It does not lie, but it does not volunteer what it isn't asked.
+> **Old and Patient.** Health reflects how hard it is to resist, not a combat threat. It will not fight under ordinary circumstances.
+> **Hears Lies.** Honest bargaining is eased by one step. Deceiving or manipulating it is hindered by two steps.
+
+- **Damage.** None in ordinary interaction. If provoked or robbed, scorches one target for 5 points without moving.
+- **Taken, Not Given.** If the ember is taken by force or trickery, its carrier makes a Might defense (Difficulty 5) or takes 6 points.
+```
+
+**Interaction.** Speaks slowly and plainly, without malice and without particular warmth, despite what it is. It has been patient for longer than the mine has existed and sees no reason to hurry. It does not lie, but it does not volunteer what it isn't asked.
 
 The Banked Fire will lend its heat against Old Man Winter, but, as the Mask-Maker warned, **fire wants feeding, and it won't much care what you feed it.** It states its price plainly, without cruelty: something warm and real, given over freely. Let the party choose or improvise an offering. Some options:
 
@@ -656,15 +700,21 @@ Use two or three of these as the party makes their way toward the tree:
 
 Between the party and the tree stands its old companion, twisted into a jailer. Once, by every account Odell or the old-timers might give, a huge, pale stag kept easy company with the tree, appearing at first frost alongside the townsfolk who came to leave offerings. This year, with no one coming and the tree's strength fading, Old Man Winter reached it first: its antlers grown through with clear ice, a thin frozen collar visible at its throat if anyone looks closely, its eyes gone the same flat blue-white as the church window. It isn't cruel. It's *worn like a leash.*
 
-**The Frost Stag**
-*Level 5*
+```creature cypher
+The Frost Stag
+Level 5
+Health: 22 | Armor: 1 | Movement: Long
 
-- **Health:** 22
-- **Armor:** 1 (a rime of ice over its hide)
-- **Damage:** 5 points (a rack of icy antlers, lowered and charging)
-- **Movement:** Long (fast, and it uses the trees against pursuers)
-- **Combat:** The Stag fights to keep the party from the tree, not to kill. A PC reduced to 0 Health in this fight is driven back and stunned rather than seriously harmed. A PC who targets the **frozen collar at its throat** (declare it; a called shot, Difficulty 5) can shatter it in a single solid hit, ending the fight without harming the animal. The Stag staggers, shakes itself like a dog coming out of water, and walks away into the trees, free.
-- **Interaction:** The Stag can't speak or be reasoned with directly. But a PC who approaches slowly, without weapons drawn, and calms it (Intellect- or Might-based Interaction task, Difficulty 5) may avoid the fight altogether and get close enough to break the collar by hand.
+> **Frozen Collar.** A called shot at the collar (Difficulty 5) shatters it in one solid hit, ending the fight without harming the stag.
+> **Not to Kill.** A PC reduced to 0 Health in this fight is driven back and stunned rather than seriously harmed.
+
+- **Damage.** 5 points (a rack of icy antlers, lowered and charging).
+- **Calmed.** A PC who approaches slowly, weapons sheathed, can calm it (Intellect- or Might-based Interaction, Difficulty 5) and break the collar by hand.
+```
+
+**Combat.** The Stag fights to keep the party from the tree, not to kill. Its rime of ice serves as armor, and it is fast and uses the trees against pursuers. When the collar shatters, the Stag staggers, shakes itself like a dog coming out of water, and walks away into the trees, free.
+
+**Interaction.** The Stag can't speak or be reasoned with directly. But a PC who approaches slowly, without weapons drawn, and calms it may avoid the fight altogether and get close enough to break the collar by hand.
 
 **GM Intrusion (Old Kindness):** Mid-fight, the Stag hesitates, lowering its head not to charge but almost to nuzzle, some old memory of gentleness fighting through the ice, before winter's grip reasserts. This is a good moment to let a compassionate PC try something creative.
 
@@ -803,20 +853,35 @@ If asked, the Mask-Maker grumbles one hint per round, never an order: *"You ligh
 
 ### Old Man Winter's Stats
 
-**Old Man Winter, a Season Overstayed**
-*Level 6*
+```creature cypher
+Old Man Winter, a Season Overstayed
+Level 6
+Health: 20 | Armor: 3 | Movement: Short
 
-- **Health:** 20
-- **Armor:** 3 (frost sheathes him; edged weapons and mundane fire barely register)
-- **Damage:** 6 points (a blow from a frost-rimed limb), or 4 points of Intellect damage (a wave of despair and cold clarity; Armor does not protect against this)
-- **Movement:** Short (he does not so much walk as arrive)
-- **Modifications:**
-  - At 0 Health he does not die, and he is not sent away. He leaves his body behind, and the body must be burned (see **The Burning**, below).
-  - On his turn, instead of attacking, he can snuff one lit candle (see **The Light**, below).
-  - The **Wake Customs** (below) can stall or weaken him. Striking him in the same round spoils a courtesy or the Table.
-  - Tasks to resist his cold, his despair, or his influence are eased by one step for characters who have shown genuine grief or loss in the scene. He recognizes kinship in sorrow, and it makes him, briefly, gentler.
-- **Combat:** He rarely attacks to kill. He attacks to still, to slow, to convince. A character reduced to 0 Health by him doesn't die: they freeze, joining the tableau of the frozen townsfolk, and thaw when his body is burned. Make sure your players know the stakes are dire but not necessarily fatal. The horror is in the stillness, not the body count.
-- **Interaction:** He speaks rarely, and when he does, it is quiet, unhurried, almost kind. He genuinely believes he is doing Helvetia a favor. He may try to bargain directly, offering to spare someone specific or leave one part of the town untouched in exchange for the party leaving him be.
+> **Frost-Sheathed.** Edged weapons and mundane fire barely register.
+> **Kinship in Sorrow.** Tasks to resist his cold, despair, or influence are eased by one step for characters who showed genuine grief or loss in the scene.
+
+- **Damage.** 6 points (a frost-rimed limb), OR 4 points of Intellect damage that ignores Armor (despair and cold clarity).
+- **Snuff a Candle.** Instead of attacking, puts out one lit candle.
+
+> **Frozen.** A PC reduced to 0 Health by him doesn't die. They freeze with the townsfolk and thaw when his body is burned.
+
+---
+
+**WAKE CUSTOMS:** Each costs a PC's action. Striking him in the same round spoils a Courtesy or the Table.
+- **The Guest's Courtesy.** He takes no action on his next turn. Each courtesy works once.
+- **The Light.** Each lit candle reduces his Armor by 1 (minimum 0).
+- **The Telling.** Each success, from a different PC, reduces all his damage by 1 (maximum 2).
+- **The Table.** He takes no actions for his next two turns. Works once.
+
+---
+
+**AT 0 HEALTH:** He does not die and is not sent away. He leaves his body behind, and it must be burned (see **The Burning**).
+```
+
+**Combat.** He rarely attacks to kill. He attacks to still, to slow, to convince. He does not so much walk as arrive. Make sure your players know the stakes are dire but not necessarily fatal. The horror is in the stillness, not the body count.
+
+**Interaction.** He speaks rarely, and when he does, it is quiet, unhurried, almost kind. He recognizes kinship in sorrow, and it makes him, briefly, gentler. He genuinely believes he is doing Helvetia a favor. He may try to bargain directly, offering to spare someone specific or leave one part of the town untouched in exchange for the party leaving him be.
 
 **GM Intrusions (Old Man Winter):**
 
@@ -924,6 +989,13 @@ Let the players sit with that quiet dissonance. They know what almost happened h
 > To take the ice off my roof and my table,
 > We're kicking you off of this old dance floor,
 > And don't you come round the hollers no more.
+
+### Creature Reference
+
+Every stat card in this module, gathered in one place for the table.
+
+```creature-index
+```
 
 ---
 
